@@ -1,0 +1,696 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 2500px;
+    font-family: 'Dosis';
+    
+}
+.navbar-info {
+    width: 100%;
+    margin-bottom: -12rem;
+    z-index: 9000000;
+    
+    
+}
+.fixed-me{
+    transition: all 1s ;
+}
+
+.fixed-me{
+    background-color:rgba(255, 255, 255,0.9) !important;
+    padding: 0px  !important;
+    margin-bottom: 5px;
+    position: fixed;
+    top:0;
+	z-index:90000;
+    width: 100%;
+    border-bottom: 3px solid rgba(207,181,59,0.7) !important;
+    
+}
+
+.navbar-me {
+    
+   transition: all 1s ;
+}
+.header-right-menu{
+ padding: 5px 15px !important;   
+    
+}
+.site-logo{
+    padding: 15px 20px !important; 
+    margin: 15px 10px !important;
+}
+.navbar-me{
+    padding: 10px 0px;
+    background-color: transparent;
+    top: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.navbar-collapse{
+    text-align: center;
+    border-top-width: 0px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+.menu-collapsed-button     {
+    margin: 15px 15px 15px 15px !important;
+}
+
+.ghost-bg    {
+    
+    background-color:rgba(255, 255, 255,0.9);
+    border: solid goldenrod 1px;
+    border-radius: 35px 35px;
+    color:black;
+    height:5.2rem;
+}
+
+.ghost-bg:hover   {
+    
+    background-color:goldenrod;
+    border-radius: 35px 35px;
+    color:black;
+}
+
+a   {
+   color:#333;
+    
+}
+
+a:hover{
+   color:#000000;
+    
+}
+
+.text-hover{
+    
+    color:#333;
+    
+}
+
+.text-hover:hover{
+    
+    color:black;
+    border-bottom: 2px solid goldenrod;
+    
+}
+    
+}
+
+.nav .navbar-nav{
+    
+    margin-left: 5px;
+    background-color:rgb(255, 255, 255,) !important; 
+    z-index: 90000;
+}
+
+
+.logo-call    {
+    
+    color: #333;
+    font-family: serif;
+    font-size: 18px
+    
+}
+
+/*------------ Home Carusel Slider Starts---------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------- */
+/* Carousel base class */
+.carousel   {
+
+    height: 500px;
+    margin-bottom: 60px;
+
+}
+
+.slide-titles     {
+    
+    margin-bottom: 15rem;
+    font-size: 70px;
+/*  background-color:rgba(0, 7, 17,0.4);*/
+    
+}
+
+#slide{
+    
+    margin-bottom: 2rem;
+}
+
+.slide{
+    
+    top: 0px;
+    z-index: 1;
+    margin-top: 10rem;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+height: 500px;
+background-color: #777;
+}
+
+
+.carousel-inner > .item > img {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 500px;
+}
+
+
+.carousel-inner > .item > .first-slide {
+background-color: #777;
+}
+
+.carousel-inner > .item > .second-slide {
+background-color: #666;
+}
+
+.carousel-inner > .item > .third-slide {
+background-color: #555;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+
+
+.marketing .col-lg-4 {
+margin-bottom: 20px;
+text-align: center;
+}
+
+.marketing h2 {
+font-weight: normal;
+}
+.
+marketing .col-lg-4 p {
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.marketing .col-lg-4 img {
+width: 140px;
+height: 140px;
+background-color: #777;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+
+.featurette-heading {
+font-weight: 300;
+line-height: 1;
+letter-spacing: -1px;
+}
+
+.third-slide{
+    
+    background-image:url(../img/slide-001-1300x800px.jpg);
+    background-size: cover;
+    
+    
+}
+
+.second-slide{
+    
+    background-image:url(../img/slide-003-1300x800px.jpg);
+    background-size: cover;
+    
+    
+}
+
+.first-slide{
+    
+    background-image:url(../img/slide-002-1300x800px.jpg);
+    background-size: cover;
+    
+    
+}
+
+/* intro-quote
+------------------------- */
+
+#intro-quote   {
+    
+    width: 100%;
+    height: 25rem;
+    margin-top: 12rem;
+       
+}
+
+.intro-quote   {
+    
+    background-color: goldenrod;
+    width:100%;
+    height:25rem;
+    text-align: center;
+    
+    
+}
+
+.lead-intro   {
+    color:white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: 50;
+    font-size: 23px;
+    line-height: 3rem;
+    font-weight: lighter;
+    
+    
+}
+
+
+
+.fa-plus{
+    
+    color:white;
+}
+
+.top-quote{
+    
+    color:white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+#design-cover{
+    
+    margin-top: 12rem;
+    width:100%;
+    height: 70rem;
+    
+}
+
+.megatron{
+    
+    margin-top: 10rem;
+    width: 100%;
+    height: 65rem;
+    background-image: url(../img/slide-001-1300x800px.jpg);
+    background-size: cover;
+    margin-bottom: -12rem;
+    align-content: center;
+    
+    }
+
+/*.card    {*/
+    
+/*
+    text-align: center;
+    color: #333;
+    width:90rem;
+    height: 20rem;
+    background-color: white;
+    margin-left: 15rem;
+    margin-top: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+*/
+    
+}
+
+.design-card    {
+    
+    text-align: center;
+      
+    
+}
+
+
+
+.design-intro-card    {
+   
+    margin-bottom: 25rem;
+    clear: both;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    
+    
+}
+
+
+#card-borderly   {
+    
+  
+    
+}
+
+
+.headers   {
+    
+    color: darkgoldenrod;
+    font-family: serif;
+    margin-top:10rem !important;
+    margin-bottom: 5rem;
+    text-align: center;
+    
+    
+}
+
+#card-high-title   {
+    
+    color:darkgoldenrod;
+    font-family: serif;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
+
+.design-intro-card  {
+    
+    background-color:white;
+    
+}
+
+#card-high-copy    {
+    
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #777;
+}
+
+
+
+/* design-preview CSS
+----------------------------------------------------------------------------------- */
+
+
+#design-preview    {
+    
+    background-image: url(../img/noisy_grid.png);
+    margin-top: 5rem;
+    
+    
+}
+.thumbnail{
+    
+    margin-bottom: 9rem;
+}
+
+
+.preview-title   {
+    
+    
+text-align: center;
+font-family: serif;
+color: darkgoldenrod;
+margin-top: 1rem;
+margin-bottom: 10rem;
+        
+}
+
+.card-space{
+    
+    margin-top: 6rem;
+}
+
+
+.cards-row{
+    margin-top: 35rem;
+    margin-bottom: 15rem;
+    
+    
+}
+
+
+@import"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";
+
+@import"https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700";
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Roboto Mono");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Dosis Light'),
+    local('Dosis-Light'),
+    url(http://fonts.gstatic.com/l/font?kit=RoNoOKoxvxVq4Mi9I4xIReCW9eLPAnScftSvRB4WBxg&skey=a88ea9d907460694) format('woff2');
+}
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Dosis Medium'),
+    local('Dosis-Medium'),
+    url(http://fonts.gstatic.com/l/font?kit=Z1ETVwepOmEGkbaFPefd_-CW9eLPAnScftSvRB4WBxg&skey=21884fc543bb1165) format('woff2');
+}
+
+body    {
+    
+    font-family:'Open Sans Condensed',sans-serif;
+    font-size:18px
+
+}
+
+.backto  {
+    
+    background:#039; padding:12px 0; 
+    color:#fff
+
+
+}
+
+.backto a {
+    
+    color:#FFF; 
+    text-decoration:none
+
+}
+
+.cards-row   { 
+    padding-top:40px; 
+    padding-bottom:20px;
+
+}
+
+.thumbnail {
+    
+    padding:0; 
+    border-radius:0; 
+    border:none; 
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)
+
+}
+
+.thumbnail>img {
+    
+    width:100%; 
+    display:block;
+
+}
+
+.thumbnail h3  {
+    
+    font-size:26px;
+
+}
+
+.thumbnail h3,.card-description  {
+    
+    margin:0; 
+    padding:8px 0; 
+    border-bottom:solid 1px #eee; 
+    text-align:left;
+
+}
+
+.thumbnail p  {
+    
+    padding-top:8px; 
+    font-size:20px;
+
+}
+
+
+.thumbnail .btn   {
+    
+    border-radius:0; 
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); 
+    font-size:20px;
+    text-align: justify;
+
+
+}
+
+.preview-titles  {
+    
+    text-align: center;
+    color:#333;
+    text-decoration: underline;
+    font-family:serif;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    
+}
+
+
+
+/* Footer Section CSS
+-------------------------------------------------- */
+
+
+
+.footer-cont   { 
+    
+    text-align: center;
+    color:white;
+    width: 102%;
+    height: 45rem;
+    background-color: #333;
+    margin-top: 0rem;
+    border-top: 8px solid darkgoldenrod;
+    
+    
+}
+
+#footer  {
+    text-align: center;
+    color:white;
+    width: 100%;
+    height: 40rem;
+    
+    
+    
+}
+
+.company-name   {
+    
+    text-align: center;
+    color:white;
+    margin-top: 5rem;
+    font-weight:lighter;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+
+.copyright  {
+    
+    text-align: center:
+    color:white;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.contact   {
+    
+    text-align: center:
+    color:white;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.social-facebook:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+@media (min-width: 768px) {
+/* Navbar positioning foo */
+
+    
+.navbar-wrapper {
+margin-top: 20px;
+}
+
+.navbar-wrapper .container {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+
+.navbar-wrapper .navbar {
+padding-right: 0;
+padding-left: 0;
+}
+
+/* The navbar becomes detached from the top, so we round the corners */
+
+.navbar-wrapper .navbar {
+border-radius: 4px;
+}
+
+/* Bump up size of carousel content */
+
+.carousel-caption p {
+margin-bottom: 20px;
+font-size: 21px;
+line-height: 1.4;
+}
+
+
+.featurette-heading {
+font-size: 50px;
+}
+}
+
+@media (min-width: 992px) {
+
+
+    .featurette-heading {
+margin-top: 120px;
+}
+}
+
+
+
